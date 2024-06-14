@@ -32,7 +32,6 @@ This table shows recent methods used in image captioning, including the deep lea
 
 
 ## 3. The Proposed Method
-Here, the proposed approach for solving the problem is detailed. It covers the algorithms, techniques, or deep learning models to be applied, explaining how they address the problem and why they were chosen.
 
 Most Basic Image Captioning systems use an encoder-decoder framework where an image as input is transformed into a feature vector by the encoder and then decoded into a text sequence by the decoder.
 
@@ -40,6 +39,10 @@ Most Basic Image Captioning systems use an encoder-decoder framework where an im
 
 - **Decoder (RNN or Transformer):** This part generates the textual description. Recurrent Neural Networks (RNNs), Long Short-Term Memory networks (LSTMs), or Transformer-based models are commonly used to generate the sequence of words that describe the image.
 
+<div align="center">
+    <img src="Model.jpg" alt="Logo" width="" height="200">
+<h1 align="center">Model Structure Consists of Encoder and Decoder</h1>
+</div>
 ## 4. Implementation
 This section delves into the practical aspects of the project's implementation.
 
