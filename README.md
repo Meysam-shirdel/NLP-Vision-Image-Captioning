@@ -44,7 +44,7 @@ Most Basic Image Captioning systems use an encoder-decoder framework where an im
 <h3 align="center">Model Structure Consists of Encoder and Decoder</h3>
 </div>
 
-As shown in the above figure, in this work, ResNet50 is used as encoder to extract image features as input. Then this feature vector cancatenated to the captions' embeddings and is fed to the LSTM layer.
+As illustrated in the figure above, this work utilizes ResNet50 as the encoder to extract image features. These features are then concatenated with the caption embeddings and fed into the LSTM layer.
 
 ## 4. Implementation
 This section delves into the practical aspects of the project's implementation.
