@@ -23,14 +23,39 @@ This table shows recent methods used in image captioning, including the deep lea
 
 | Date       | Title                                                                 | Description                                                                                                      | Links                                                                                                  |
 |------------|-----------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------|
-| 2020       | Show, Attend and Tell: Neural Image Caption Generation with Visual Attention | Uses an encoder-decoder framework with an attention mechanism to focus on different parts of the image.            | [Paper](https://arxiv.org/abs/1502.03044), [GitHub](https://github.com/kelvinxu/arctic-captions)       |
-| 2017       | Bottom-Up and Top-Down Attention for Image Captioning and Visual Question Answering | Incorporates bottom-up and top-down attention mechanisms to improve the focus on relevant image regions.           | [Paper](https://arxiv.org/abs/1707.07998), [GitHub](https://github.com/peteanderson80/bottom-up-attention) |
-| 2021       | Meshed-Memory Transformer for Image Captioning                         | Utilizes a meshed-memory transformer architecture to enhance the interaction between image regions and words.      | [Paper](https://arxiv.org/abs/1912.08226), [GitHub](https://github.com/aimagelab/meshed-memory-transformer) |
+| 2016       | Image Captioning with Semantic Attention                              | Combines a CNN (VGG-16) for feature extraction with an LSTM for sequence generation, incorporating attention mechanisms. | [Paper](https://arxiv.org/abs/1603.03925), [GitHub](https://github.com/jazzsaxmafia/show_attend_and_tell.tensorflow) |
+| 2017       | Skeleton Key: Image Captioning by Skeleton-Attribute Decomposition    | Uses a CNN (ResNet-50) for feature extraction and an LSTM for caption generation, incorporating skeleton decomposition. | [Paper](https://arxiv.org/abs/1704.06500), [GitHub](https://github.com/klchang/ImageCaptioning)          |
 | 2018       | Image Captioning with Object Detection and Attributes                  | Combines object detection and attribute prediction to generate more descriptive and detailed captions.             | [Paper](https://arxiv.org/abs/1803.08379), [GitHub](https://github.com/aimagelab/show-control-and-tell)   |
-| 2021       | VinVL: Revisiting Visual Representations in Vision-Language Models     | Proposes a vision-language pretraining model that achieves state-of-the-art results on image captioning benchmarks. | [Paper](https://arxiv.org/abs/2101.00529), [GitHub](https://github.com/microsoft/Oscar)                   |
 | 2019       | X-Linear Attention Networks for Image Captioning                       | Introduces X-Linear attention networks to capture higher-order interactions between image regions and words.       | [Paper](https://arxiv.org/abs/1908.07490), [GitHub](https://github.com/JDAI-CV/image-captioning)          |
-| 2020       | Unified Vision-Language Pre-Training for Image Captioning and VQA      | Presents a unified framework for vision-language pretraining, improving performance on image captioning tasks.     | [Paper](https://arxiv.org/abs/1909.11059), [GitHub](https://github.com/LuoweiZhou/VLP)                    |
-| 2019       | Dense-Captioning Events in Videos                                      | Focuses on generating dense captions for events in videos, leveraging temporal and visual features.                | [Paper](https://arxiv.org/abs/1806.03667), [GitHub](https://github.com/jiyanggao/AnetCaption)              |
+| 2020       | Show, Attend and Tell: Neural Image Caption Generation with Visual Attention | Uses an encoder-decoder framework with an attention mechanism to focus on different parts of the image.            | [Paper](https://arxiv.org/abs/1502.03044), [GitHub](https://github.com/kelvinxu/arctic-captions)       |
+| 2021       | Meshed-Memory Transformer for Image Captioning                         | Utilizes a meshed-memory transformer architecture to enhance the interaction between image regions and words.      | [Paper](https://arxiv.org/abs/1912.08226), [GitHub](https://github.com/aimagelab/meshed-memory-transformer) |
+
+Here is a table summarizing some of the most recent methods for image captioning from 2022 to 2024, including the deep learning models used and links to relevant papers and code repositories:
+
+| Date       | Title                                              | Description                                                                                                 | Links                                                                                     |
+|------------|----------------------------------------------------|-------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------|
+| 2022       | UpDown and Meta Learning            | Utilizes the UpDown architecture with meta learning for caption generation.   | [Paper](https://ar5iv.org/pdf/2107.13114.pdf)                                             |
+| 2022       | IC-GAN (Image Captioning GAN)                      | Uses GANs with a discriminator for generating human-like captions, built on the UpDown architecture.        | [Paper]https://ar5iv.org/pdf/2107.13114.pdf)                                             |
+| 2023       | NOCAPS-XD                                          | A comprehensive benchmark for out-of-domain and near-domain caption generation.                             | [Paper]https://www.mdpi.com/2076-3417/13/1/1)                                             |
+| 2023       | GIT2                                               | Introduces a novel generative approach for image captioning leveraging transformers.                        | [Paper]https://www.mdpi.com/2076-3417/13/1/1), [Code](https://github.com/ofa-sys/ofa)    |
+| 2023       | CLIPCap                                            | Combines CLIP and GPT-2 models for image captioning, offering improved performance through tuning.           | [Paper]https://ar5iv.org/pdf/2107.13114.pdf), [Code](https://github.com/saahiluppal/clipcap) |
+| 2024       | Visual GPT-3                                       | Uses a multimodal approach combining GPT-3 with visual features for advanced caption generation.            | [Paper]https://www.mdpi.com/2076-3417/13/1/1), [Code](https://github.com/openai/gpt-3)   |
+| 2024       | Prismer                                            | Focuses on precision in captioning through a combination of visual attention mechanisms and language models.| [Paper]https://www.mdpi.com/2076-3417/13/1/1)                                             |
+
+### Key Models and Techniques:
+1. **UpDown Architecture**: Combines a CNN for image feature extraction with an LSTM for sequence generation. Commonly used in many modern image captioning models.
+2. **GANs for Image Captioning (IC-GAN)**: Uses a generator and discriminator to create more human-like captions, distinguishing between human and machine-generated captions.
+3. **Transformers (e.g., GIT2, Visual GPT-3)**: Leverage the powerful sequence modeling capabilities of transformers for generating captions.
+4. **CLIP and GPT-2 (CLIPCap)**: Utilizes CLIP for visual understanding and GPT-2 for language generation, fine-tuning for improved performance.
+
+### Notable Research and Repositories:
+- **UpDown and Meta Learning**: Demonstrates the integration of traditional encoder-decoder architectures with meta-learning strategies.
+- **IC-GAN**: Introduces adversarial training to enhance the realism of generated captions.
+- **NOCAPS-XD**: Provides a comprehensive benchmark for evaluating models on out-of-domain data, promoting robustness in caption generation.
+- **GIT2**: A generative transformer-based approach that is part of ongoing efforts to improve contextual and semantic accuracy in captions.
+- **CLIPCap**: Combines the strengths of visual and language models to generate accurate and contextually appropriate captions.
+
+These methods highlight the rapid advancements in image captioning, focusing on integrating various deep learning techniques to improve the accuracy, relevance, and human-likeness of generated captions. For more details on each method, you can explore the provided links to papers and repositories.
 
 
 ## 3. The Proposed Method
