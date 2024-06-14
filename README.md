@@ -10,11 +10,11 @@ The primary goal of the image captioning task is to generate a coherent and accu
 
 **Main Challenges in Image Captioning**
 
--Object Detection and Recognition: Accurately identifying all relevant objects in an image is foundational. However, variations in object appearance, occlusion, and background clutter make this challenging.
--Contextual Understanding: Beyond recognizing individual objects, understanding the scene context and the relationships between objects (e.g., actions, spatial relationships) is crucial.
+- Object Detection and Recognition: Accurately identifying all relevant objects in an image is foundational. However, variations in object appearance, occlusion, and background clutter make this challenging.
+- Contextual Understanding: Beyond recognizing individual objects, understanding the scene context and the relationships between objects (e.g., actions, spatial relationships) is crucial.
 
--Grammar and Syntax: Generating grammatically correct and syntactically sound sentences is essential for coherent descriptions.
--Relevance and Coherence: Ensuring that the generated captions are relevant to the image and maintain a coherent narrative throughout is challenging.
+- Grammar and Syntax: Generating grammatically correct and syntactically sound sentences is essential for coherent descriptions.
+- Relevance and Coherence: Ensuring that the generated captions are relevant to the image and maintain a coherent narrative throughout is challenging.
 
 ## 2. Related Works
 This section explores existing research and solutions related to medical image segmentation. 
