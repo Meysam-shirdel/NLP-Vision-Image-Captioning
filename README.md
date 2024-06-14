@@ -40,7 +40,7 @@ Most Basic Image Captioning systems use an encoder-decoder framework where an im
 - **Decoder (RNN or Transformer):** This part generates the textual description. Recurrent Neural Networks (RNNs), Long Short-Term Memory networks (LSTMs), or Transformer-based models are commonly used to generate the sequence of words that describe the image.
 
 <div align="center">
-    <img src="Model.jpg" alt="Logo" width="" height="200">
+    <img src="Model1.jpg" alt="Logo" width="" height="200">
 <h3 align="center">Model Structure Consists of Encoder and Decoder</h3>
 </div>
 
