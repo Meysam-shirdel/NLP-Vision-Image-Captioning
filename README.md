@@ -41,8 +41,10 @@ Most Basic Image Captioning systems use an encoder-decoder framework where an im
 
 <div align="center">
     <img src="Model.jpg" alt="Logo" width="" height="200">
-<h1 align="center">Model Structure Consists of Encoder and Decoder</h1>
+<h3 align="center">Model Structure Consists of Encoder and Decoder</h3>
 </div>
+
+
 ## 4. Implementation
 This section delves into the practical aspects of the project's implementation.
 
