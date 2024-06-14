@@ -3,7 +3,7 @@
 <h1 align="center">Image Captioning</h1>
 </div>
 
-This repository serves as the template for the third project in the Deep Catalyst course, focusing on medical image segmentation. Explore and utilize this template to kickstart your own medical image segmentation projects, leverage best practices, and accelerate your journey into the world of precise medical diagnostics through deep learning.
+Image captioning in deep learning is a task that involves generating a textual description of an image. It combines techniques from computer vision and natural language processing to analyze the content of an image and produce a relevant and coherent sentence or paragraph describing it.
 
 ## 1. Problem Statement
 In this section, you'll find a comprehensive overview of the problem being addressed in the project.
