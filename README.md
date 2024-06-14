@@ -1,12 +1,12 @@
 <div align="center">
-    <img src="cover.png" alt="Logo" width="" height="200">
+    <img src="images.jpg" alt="Logo" width="" height="200">
 <h1 align="center">Image Captioning</h1>
 </div>
 
+## 1. Problem Statement
 Image captioning in deep learning is a task that involves generating a textual description of an image. It combines techniques from computer vision and natural language processing to analyze the content of an image and produce a relevant and coherent sentence or paragraph describing it.
 
-## 1. Problem Statement
-In this section, you'll find a comprehensive overview of the problem being addressed in the project.
+In the Image Captioning task, there are two components that make the final model:
 
 ## 2. Related Works
 This section explores existing research and solutions related to medical image segmentation. 
