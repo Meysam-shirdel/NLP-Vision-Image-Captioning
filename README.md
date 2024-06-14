@@ -36,9 +36,9 @@ Here, the proposed approach for solving the problem is detailed. It covers the a
 
 Most Basic Image Captioning systems use an encoder-decoder framework where an image as input is transformed into a feature vector by the encoder and then decoded into a text sequence by the decoder.
 
-1-**Encoder (CNN):** This part of the model processes the image. Convolutional Neural Networks (CNNs), such as ResNet or VGG, are typically used to extract feature representations from the image.
+- **Encoder (CNN):** This part of the model processes the image. Convolutional Neural Networks (CNNs), such as ResNet or VGG, are typically used to extract feature representations from the image.
 
-2-**Decoder (RNN or Transformer):** This part generates the textual description. Recurrent Neural Networks (RNNs), Long Short-Term Memory networks (LSTMs), or Transformer-based models are commonly used to generate the sequence of words that describe the image.
+- **Decoder (RNN or Transformer):** This part generates the textual description. Recurrent Neural Networks (RNNs), Long Short-Term Memory networks (LSTMs), or Transformer-based models are commonly used to generate the sequence of words that describe the image.
 
 ## 4. Implementation
 This section delves into the practical aspects of the project's implementation.
