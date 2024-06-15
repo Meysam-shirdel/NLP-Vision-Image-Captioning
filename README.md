@@ -64,7 +64,27 @@ The Flickr8k dataset is a widely used benchmark for image captioning and related
 - Format: The dataset is typically provided in a format that includes the images and a separate file containing the captions and their associated image IDs.
 
 ### 4.2. Model
-In this subsection, the architecture and specifics of the deep learning model employed for the segmentation task are presented. It describes the model's layers, components, libraries, and any modifications made to it.
+In this subsection, the architecture and specifics of the deep learning model employed for the image captioning task are presented. Custom model structure is as follow:
+
+    class ImageCaptioning(nn.Module):
+    
+      def __init__(self, embed_size, hidden_size, vocab_size, num_layers
+                   , dropout_embd, dropout_rnn, max_seq_len=20):
+        super().__init__()
+        self.encoder = EncoderCNN(embed_size)
+        self.decoder = DecoderRNN(embed_size, hidden_size, vocab_size, num_layers
+                                , dropout_embd, dropout_rnn, max_seq_len=20)
+    
+      def forward(self, images, captions):
+        features = self.encoder(images)
+        output = self.decoder(features, captions)
+        return output
+        
+- **EncoderCNN:** This is a custom model that uses a ResNet50 and a fully connected layer to extract features from input image.
+
+- **DecoderRNN:** Here we used a LSTM-based custom model to generate sentence from EncoderCNN output and captions.
+
+
 
 ### 4.3. Configurations
 This part outlines the configuration settings used for training and evaluation. It includes information on hyperparameters, optimization algorithms, loss function, metric, and any other settings that are crucial to the model's performance.
