@@ -106,5 +106,23 @@ This part outlines the configuration settings used for training and evaluation. 
 ### 4.4. Train
 Here, you'll find instructions and code related to the training of the segmentation model. This section covers the process of training the model on the provided dataset.
 
+The training process consists of two sections: Finding Hyper-parameters and the Main Loop. In the Finding Hyper-parameters section, we used different scenarios to obtain the best hyper-parameters, such as learning rate, weight decay, and momentum. The results from this section were used to train the model in the Main Loop.
+
+I created a grid of learning rates and weight decays as shown below and trained the model for two epochs for each learning rate:
+
+Learning rates: 10, 5, 2.5, 1.25, 0.9, 0.5, 0.1
+Weight decays: 1e-4, 1e-5, 1e-6
+The best training loss of 3.24 was obtained with a learning rate of 1.25, weight decay of 1e-4, momentum of 0.9, and dropout for RNN of 0.5.
+
+Then, we trained the model with a learning rate of 1.25 and weight decay of 1e-4 for 10 more epochs and achieved a training loss of 2.3 and a validation loss of 2.66.
+
+
 ### 4.5. Evaluate
-In the evaluation section, the methods and metrics used to assess the model's performance are detailed. It explains how the model's segmentation results are quantified and provides insights into the model's effectiveness.
+In the evaluation section, the methods and metrics used to assess the model's performance are detailed. It explains how the model's captioning results are quantified and provides insights into the model's effectiveness.
+
+For validation, we calculated BLEU scores 1, 2, 3, and 4. The results were as follows:
+
+**Blue1 = ** 0.6226
+**Blue2 = ** 0.4129
+**Blue3 = ** 0.2759
+**Blue4 = ** 0.1841
