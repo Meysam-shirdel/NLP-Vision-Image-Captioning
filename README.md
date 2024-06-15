@@ -82,12 +82,20 @@ In this subsection, the architecture and specifics of the deep learning model em
         
 - **EncoderCNN:** This is a custom model that uses a ResNet50 and a fully connected layer to extract features from input image.
 
-- **DecoderRNN:** Here we used a LSTM-based custom model to generate sentence from EncoderCNN output and captions.
+- **DecoderRNN:** Here we used a LSTM-based custom model to generate sentence using EncoderCNN output and captions.
 
 
 
 ### 4.3. Configurations
 This part outlines the configuration settings used for training and evaluation. It includes information on hyperparameters, optimization algorithms, loss function, metric, and any other settings that are crucial to the model's performance.
+
+- **Loss:** torch.nn.CrossEntropyLoss(ignore_index=vocabs['<pad>'])
+
+- **Optimizer:** torch.optim.SGD(model.parameters(), lr=lr, weight_decay=wd, momentum=momentum)
+
+- **embed_size** = 300
+
+- device = 'cuda' if torch.cuda.is_available() else 'cpu'
 
 ### 4.4. Train
 Here, you'll find instructions and code related to the training of the segmentation model. This section covers the process of training the model on the provided dataset.
