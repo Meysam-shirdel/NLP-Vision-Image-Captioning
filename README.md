@@ -62,6 +62,7 @@ The Flickr8k dataset is a widely used benchmark for image captioning and related
 - Availability: The Flickr8k dataset is freely available for academic and research purposes. It can be downloaded from various sources, including the University of Illinois at Urbana-Champaign [(UIUC)](http://hockenmaier.cs.illinois.edu/8k-pictures.html), and [Kaggle](https://www.kaggle.com/datasets/sayanf/flickr8k).
 
 - Format: The dataset is typically provided in a format that includes the images and several txt files containing the captions and their associated image IDs.
+- 
 **Important Caption Files**
   - Flickr8k.token: All the image ID's and Captions 
   - Flickr_8k.trainImages: Train part 
