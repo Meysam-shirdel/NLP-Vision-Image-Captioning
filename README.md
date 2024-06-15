@@ -116,6 +116,10 @@ The best training loss of 3.24 was obtained with a learning rate of 1.25, weight
 
 Then, we trained the model with a learning rate of 1.25 and weight decay of 1e-4 for 10 more epochs and achieved a training loss of 2.3 and a validation loss of 2.66.
 
+<div align="center">
+    <img src="plot.jpg" alt="Logo" width="" height="300">
+</div>
+
 
 ### 4.5. Evaluate
 In the evaluation section, the methods and metrics used to assess the model's performance are detailed. It explains how the model's captioning results are quantified and provides insights into the model's effectiveness.
