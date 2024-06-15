@@ -117,7 +117,7 @@ The best training loss of 3.24 was obtained with a learning rate of 1.25, weight
 Then, we trained the model with a learning rate of 1.25 and weight decay of 1e-4 for 10 more epochs and achieved a training loss of 2.3 and a validation loss of 2.66.
 
 <div align="center">
-    <img src="plot.jpg" alt="Logo" width="" height="300">
+    <img src="plot1.jpg" alt="Logo" width="" height="300">
 </div>
 
 
