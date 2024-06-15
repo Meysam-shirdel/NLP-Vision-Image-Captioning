@@ -126,7 +126,10 @@ In the evaluation section, the methods and metrics used to assess the model's pe
 
 For validation, we calculated BLEU scores 1, 2, 3, and 4. The results were as follows:
 
-**Blue1 = ** 0.6226
-**Blue2 = ** 0.4129
-**Blue3 = ** 0.2759
-**Blue4 = ** 0.1841
+**Blue1 =** 0.6226
+
+**Blue2 =** 0.4129
+
+**Blue3 =** 0.2759
+
+**Blue4 =** 0.1841
