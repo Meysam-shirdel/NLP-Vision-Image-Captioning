@@ -3,7 +3,7 @@
 <h1 align="center">Image Captioning</h1>
 </div>
  
-## 1. Problem Statement  
+## 1. Problem Statement      
 Image captioning in deep learning is a task that involves generating a textual description of an image. It combines techniques from computer vision and natural language processing to analyze the content of an image and produce a relevant and coherent sentence or paragraph describing it.
 
 The primary goal of the image captioning task is to generate a coherent and accurate textual description of an image. This involves not just identifying objects in the image, but also understanding the relationships between these objects, their actions, and the context of the scene. The resulting captions should be grammatically correct and semantically meaningful.
