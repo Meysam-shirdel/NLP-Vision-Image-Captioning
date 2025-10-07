@@ -14,7 +14,7 @@ The primary goal of the image captioning task is  to generate a coherent and acc
 - Contextual Understanding: Beyond recognizing individual objects, understanding the scene context and the relationships between objects (e.g., actions, spatial relationships) is crucial.
 
 - Grammar and Syntax: Generating grammatically correct and syntactically sound sentences is essential for coherent descriptions.
-- Relevance and Coherence: Ensuring that the generated captions are relevant to the image and maintain a coherent narrative throughout is challenging.
+- Relevance and Coherence: Ensuring that the generated captions are relevant to the image and maintain a coherent narrative throughout is challenging. 
 
 ## 2. Related Works
 This table shows recent methods used in image captioning, including the deep learning models they use, and links to their papers or GitHub repositories.
